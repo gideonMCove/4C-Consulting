@@ -4,10 +4,13 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import axios from 'axios'
+import {Route, Routes} from 'react-router-dom'
+import Main from './components/Main'
 
 export default function App () {
   return (
     <div className="App">
+      <p> App</p>
       <Header />
       <Main />
       <Footer />
