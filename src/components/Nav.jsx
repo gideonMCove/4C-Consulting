@@ -10,9 +10,7 @@ export default function Nav () {
             <div className='navGroup'>
                 <Link className="About" to ="/About">About</Link>
                 <Link className="Contact" to ="/Contact">Contact</Link>
-                <NavDropdown title="Services" id="Services-dropdown">
-                    <NavDropdown.Item as={Link} to="/Services">About</NavDropdown.Item>
-                </NavDropdown>
+                <Link className="Services" to ="/Services">Services</Link>
                
             </div>
         </div>
