@@ -11,7 +11,7 @@ import Nav from './components/Nav'
 export default function App () {
   return (
     <div className="App">
-      <p> App</p>
+      
       <Header />
       <Nav /> 
       <Main />

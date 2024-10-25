@@ -6,7 +6,7 @@ import {Navigate, useNavigate, useParams } from 'react-router-dom'
 export default function Header (){
     return (
         <div className="Header">
-            <p>Header</p>
+           
         </div>
     )
 }
