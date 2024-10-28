@@ -5,6 +5,7 @@ import Header from './Header';
 import Nav from './Nav';
 import About from './About';
 import Services from './Services';
+import Pictures from './Pictures';
 
 export default function Main (){
     return (
@@ -13,6 +14,7 @@ export default function Main (){
                 <Route path ="/" element={<Home />} />
                 <Route path ="/About" element={<About />} />
                 <Route path ='/Services' element={<Services />} />
+                <Route path ='/Pictures' element={<Pictures />} />
                 
             </Routes>
         </div>
