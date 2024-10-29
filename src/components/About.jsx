@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export default function About () {
     return(
         <div className="About">
-            <h1> 4See Consulting</h1><p> was founded by owner Kevin Cove. Kevin has over 3 decades of experience working on cement projects around the world, from Vietnam to Mitchell, Indiana.</p>
+            <h1> 4See Consulting</h1><p> was founded by owner Mr. Kevin Cove. Kevin has over 3 decades of experience working on cement projects around the world, from Vietnam to Mitchell, Indiana.</p>
             <Button variant="info"  href="/Services" size="sm">Services</Button>
         </div>
     )
