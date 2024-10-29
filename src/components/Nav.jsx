@@ -12,6 +12,7 @@ export default function Nav () {
                 <Link to= "/Contact">Contact   </Link>
                 <Link to= "/Services">Services   </Link>
                 <Link to= "/Pictures">Pictures   </Link>
+                <Link to= "/References">References   </Link>
                
             </div>
         </div>

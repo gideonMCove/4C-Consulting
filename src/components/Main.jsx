@@ -6,6 +6,7 @@ import Nav from './Nav';
 import About from './About';
 import Services from './Services';
 import Pictures from './Pictures';
+import ReferenceList from './ReferenceList';
 
 export default function Main (){
     return (
@@ -15,6 +16,7 @@ export default function Main (){
                 <Route path ="/About" element={<About />} />
                 <Route path ='/Services' element={<Services />} />
                 <Route path ='/Pictures' element={<Pictures />} />
+                <Route path ='/References' element={<ReferenceList />} />
                 
             </Routes>
         </div>

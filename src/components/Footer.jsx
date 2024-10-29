@@ -7,7 +7,7 @@ export default function Footer (){
         <div className="Footer">
             <p>4See Consulting</p><br />
             <p>307 Island Drive Lane</p><br />
-            <p>Maberly, Ontario</p><br />
+            <p>Maberly, Ontario, Canada</p><br />
             <p>Email: Kevin.Cove@4seeconsulting.com</p><br />
             <p>Phone: 484-632-9992</p>
         </div>
