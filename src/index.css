@@ -76,6 +76,11 @@ button:focus-visible {
 }
 
 .Footer {
+  font-size: 0.8em; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
 }
 
@@ -104,5 +109,5 @@ button:focus-visible {
 }
 
 .Services {
-  
+
 }
