@@ -68,12 +68,10 @@ button:focus-visible {
 }
 
 .About {
+  font-size: 1.2em;
 
 }
 
-.Contact {
-
-}
 
 .Footer {
   font-size: 0.8em; 
@@ -85,26 +83,36 @@ button:focus-visible {
 }
 
 .Header {
+  font-size: 0.8em;
 
 }
 
 .Home {
+  font-size: 0.8em;
 
 }
 
 .Main {
+  font-size: 0.8em;
 
 }
 
 .Nav {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
 }
 
 .Pictures {
+  max-width: fit-content;
+  max-height: fit-content;
 
 }
 
 .ReferenceList {
+  font-size: 1.2em;
 
 }
 
