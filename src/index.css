@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Serif", serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -98,11 +98,21 @@ button:focus-visible {
 }
 
 .Nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
   font-size: 1.2em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 
+}
+
+.navbar Link:hover {
+  background:#ddd;
+  color: black;
 }
 
 .Pictures {
