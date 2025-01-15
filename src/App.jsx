@@ -7,11 +7,14 @@ import axios from 'axios'
 import {Route, Routes} from 'react-router-dom'
 import Main from './components/Main'
 import Nav from './components/Nav'
+import Favicon from 'react-favicon'
 
 export default function App () {
+
+
   return (
     <div className="App">
-      
+      <Favicon url = "https://imgur.com/a/SN1pDai" />
       <Header />
       <Nav /> 
       <Main />
